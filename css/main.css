@@ -6835,6 +6835,12 @@ fieldset:disabled .btn {
 .carousel {
   position: relative;
 }
+@media (min-width: 1200px) {
+  .customcarousel {
+  width: 60%;
+}
+}
+
 
 .carousel.pointer-event {
   -ms-touch-action: pan-y;
